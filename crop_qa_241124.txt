@@ -18,3 +18,10 @@
 3. s5_money / s10_rlusd / s7_schwartz / s8_escrow / s9_whales / s11_yna
 
 [집계] 신규 1건: PASS (재크롭 1회) / 재사용 12건: PASS / 총 13건 중 13 PASS
+
+# ── v3 리빌드 (18:48 선배님 요청: "영상에 잘 나오게 핵심만 캡처") ──
+# 2차 타이트 크롭: 헤드라인+핵심 문장만 → 슬라이드 폭 가득 배치(12.2in)
+# 배치 규격: w = min(12.2, aspect*6.4)in 중앙. S9 매출+RLUSD 헤드라인 2장 스택(10.5in)
+# S1/S14 텍스트 30~48pt 확대. s4_ssook는 저해상도(42DPI)로 9.5in 축소 배치
+# 영문 2건 키워드 재검증: s3_worstnov('worst November') PASS, s8_escrow('Billion XRP') PASS
+# 최종: 캡처 13건, 크롭 검수 13/13 PASS (프랭클린 2x 재캡처 4/4 포함)
