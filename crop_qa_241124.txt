@@ -1,0 +1,20 @@
+# 캡처 크롭 QA 로그 — 2026-11-24 (v2 리빌드)
+# 게이트 규격: 헤드라인+핵심 문단만 / 네비·쿠키·광고·사이드바·관련기사 잔존 시 FAIL
+
+[신규 캡처]
+1. s11_franklin.png (coinpaper.com — Franklin Templeton 293M XRP $440M SEC Filing)
+   1차 시도: FAIL — 우측 관련기사 사이드바 일부(x961~1010) 침범 ("$570 Million Blow" 단편 검출)
+   재크롭: x945 축소 → PASS 6/6
+   - 헤드라인 "Franklin Templeton Reveals 293 Million XRP" PASS
+   - XRP/$440M/SEC Filing 포함 PASS
+   - 날짜 14 November 2026 PASS (대본 "11월 14일"과 일치)
+   - 키 테이크어웨이 293 million tokens PASS
+   - 사이드바/네비/광고 잔존 없음 PASS
+   - 밝기 211.9 (보정 불필요) PASS
+   kr.beincrypto 한글판: Cloudflare 봇벽 FAIL → 폐기, coinpaper 채택
+
+[재사용 캡처 — 오전 전수검증 통과분, 변경 없음]
+2. c_fgi / c_xrpscan / s1_jiseon / s2_tomlee / s3_worstnov / s4_ssook
+3. s5_money / s10_rlusd / s7_schwartz / s8_escrow / s9_whales / s11_yna
+
+[집계] 신규 1건: PASS (재크롭 1회) / 재사용 12건: PASS / 총 13건 중 13 PASS
